@@ -20,7 +20,7 @@ jobs:
   
   print-hello:
     docker:
-      - image: circleci/node:13.8.0.
+      - image: cimg/base:stable
     steps:
       - run: 
           name: "Print hello"
@@ -28,7 +28,7 @@ jobs:
   
   print-world:
     docker:
-      - image: circleci/node:13.8.0.
+      - image: cimg/base:stable
     steps:
       - run: 
           name: "Print world"
